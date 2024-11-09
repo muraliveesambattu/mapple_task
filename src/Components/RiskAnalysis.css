@@ -2,13 +2,11 @@
     background-color: #333333;
   }
   .navbar-custom .navbar-brand {
-    color: #a0ff6d;
-    font-weight: bold;
+    color: white;    font-weight: bold;
   }
   .navbar-custom .nav-link {
     color: #ddd;
     font-weight: bold;
   }
   .navbar-custom .nav-link.active {
-    color: #a0ff6d;
-  }
+    color: white;  }

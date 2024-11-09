@@ -15,6 +15,49 @@
     "srcIp": "24.12.48.203",
     "userId": "tom.mclane",
     "internalIp": "24.12.48.203"
-  }
+  },
+  "StarredSessions":[
+    {
+      "name": "Kevin Turner",
+      "date": "04/29/2014",
+      "time": "2:45 am",
+      "score": 92,
+      "imgSrc": "https://randomuser.me/api/portraits/men/50.jpg",
+      "scoreColor": "red"
+    },
+    {
+      "name": "Tom McLovin",
+      "date": "04/29/2014",
+      "time": "2:45 am",
+      "score": 89,
+      "imgSrc": "https://randomuser.me/api/portraits/men/73.jpg",
+      "scoreColor": "orange"
+    },
+    {
+      "name": "Sarah Marshall",
+      "date": "04/29/2014",
+      "time": "2:45 am",
+      "score": 76,
+      "imgSrc": "https://randomuser.me/api/portraits/men/72.jpg",
+      "scoreColor": "orange"
+    },
+    {
+      "name": "Nick Lara",
+      "date": "04/29/2014",
+      "time": "2:45 am",
+      "score": 55,
+      "imgSrc": "https://randomuser.me/api/portraits/men/70.jpg",
+      "scoreColor": "green"
+    },
+    {
+      "name": "John Hansen",
+      "date": "04/29/2014",
+      "time": "2:45 am",
+      "score": 43,
+      "imgSrc": "https://randomuser.me/api/portraits/men/75.jpg",
+      "scoreColor": "green"
+    }
+  ]
+  
   
 }
