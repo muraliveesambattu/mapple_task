@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import './../LoginRegister.css';
+import '../LoginRegister.css';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -66,9 +66,14 @@ const Login = () => {
       {errorMessage && (
         <div className="error-message">
           <p>{errorMessage}</p>
-          <Link to="/register" className="register-link">Register here</Link>
         </div>
       )}
+
+      {/* Button to navigate to the Register page */}
+        <p className='m-2'>Don't have an account?</p>
+        <button onClick={() => navigate('/register')} className="form-button register-button">
+          Register
+        </button>
     </div>
   );
 };
