@@ -16,7 +16,7 @@ const StarredSessions = () => {
     getStarredSessions();
 
     // Set up the interval to fetch data every 10 seconds
-    const intervalId = setInterval(getStarredSessions, 10000);
+    const intervalId = setInterval(getStarredSessions, 60000);
 
     // Cleanup function to clear the interval when the component unmounts
     return () => clearInterval(intervalId);
