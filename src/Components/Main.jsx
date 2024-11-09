@@ -1,13 +1,11 @@
 import React from "react";
 import "./Main.css";
-import Card from "./Card";
 import RemoteDesktop from "./RemoteDesktop";
 import VPNTimeOfWeek from "./VPNTimeOfWeek";
 import TimeChart from "./TimeChart";
 import RiskAnalysis from "./RiskAnalysis";
 import StarredSessions from "./StarredSessions";
 import DataInsights from "./DataInsights";
-import Navbar from "./Navbar";
 
 const Main = () => {
   return (

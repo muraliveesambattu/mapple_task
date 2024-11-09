@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "username": "muraliv",
+      "email": "murali.veesambattu@gmail.com",
+      "password": "12345",
+      "id": 1
+    }
+  ],
+  "cardData":{
+    "icon": "💻",
+    "title": "Remote desktop to",
+    "linkText": "il-terminal-wp1",
+    "linkHref": "#",
+    "srcIp": "24.12.48.203",
+    "userId": "tom.mclane",
+    "internalIp": "24.12.48.203"
+  }
+  
+}
