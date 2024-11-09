@@ -1,0 +1,79 @@
+.starred-sessions {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #444;
+  }
+  
+  .dropdown-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .session-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .session-item {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    padding: 0 5px;
+    background: white;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+  .profile-pic {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  .session-details {
+    flex-grow: 1;
+  }
+  
+  .name {
+    font-size: 1em;
+    margin: 0;
+    color: #444;
+  }
+  
+  .datetime {
+    font-size: 0.8em;
+    color: #ccc;
+  }
+  
+  .score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    min-width: 50px;
+  }
+  
+  .score-value {
+    font-size: 1.2em;
+  }
+  p{
+    margin: 0;
+  }
+  

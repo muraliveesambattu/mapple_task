@@ -1,0 +1,42 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 30% 20%;
+  gap: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+/* Make the fourth item span all columns */
+.grid-item:nth-child(4) {
+  grid-column: 1 / -1;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  /* Switch to two columns on medium screens */
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-item:nth-child(4) {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Switch to single column on smaller screens */
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+.table-borderless > :not(caption) > * > * {
+  border-bottom-width: 0;
+  padding: 0 7px;
+}
+.apexcharts-menu-icon {
+  display: none;
+}

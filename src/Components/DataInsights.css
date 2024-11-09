@@ -1,0 +1,73 @@
+.data-insights {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #5ab2e3;
+  color: #fff;
+  width: 100%;
+  height: 100%; /* Occupies the full height of the parent container */
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 8px 10px; /* Adjusted padding for header */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  text-align: left; /* Ensure left alignment */
+}
+
+.dropdown-button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.section {
+  flex-grow: 1; /* Allows each section to grow and fill available space */
+  padding: 8px 10px; /* Adjusted padding for sections */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* Added border line between sections */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section:last-child {
+  border-bottom: none; /* Remove border from the last section */
+}
+
+.section h4 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  text-align: left; /* Ensure left alignment for section headers */
+}
+
+.section ul {
+  list-style: none; /* Remove bullet points from list items */
+  padding: 0;
+  margin: 0;
+  text-align: left; /* Ensure left alignment for lists */
+}
+
+.section ul li {
+  font-size: 0.9em;
+  margin: 4px 0; /* Adjusted margin for list items */
+  text-align: left; /* Ensure left alignment for list items */
+}
+.section {
+  padding: 0 15%;
+}
+
+.data {
+  background: none;
+  padding-left: 36px;
+}
