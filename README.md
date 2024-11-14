@@ -12,6 +12,7 @@ Steps to Run Server .
     1. Navigate to the folder 
     2. Run npm install
     3. Run json-server --watch db.json
+    
 
 Once user Logged in , he will be navigated to dashboard
     1. Time Interval has been implemented in StarredSessions Component 
